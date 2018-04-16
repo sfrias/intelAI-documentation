@@ -41,7 +41,9 @@ Learn AI theory and follow hands-on exercises with our free courses for software
 - [Intel optimzed Tensorflow](https://software.intel.com/en-us/articles/intel-optimized-tensorflow-installation-guide)
 Use these flags to accelerate your code. [Link](https://github.com/prajjwal1/intelAI-documentation/blob/master/opt_flags)
 
- [Review of Architecture and Optimization on Intel® Xeon® Scalable Processors in context of Intel® Optimized TensorFlow* on Intel® AI DevCloud by Srivatsa S.,](https://software.intel.com/en-us/articles/review-of-architecture-and-optimization-on-intel-xeon-scalable-processors-in-context-of)
+- [Performance of Classic Matrix Multiplication Algorithm on Intel® Xeon Phi™ Processor System by Sergey Kostrov](Performance of Classic Matrix Multiplication Algorithm on Intel® Xeon Phi™ Processor System)
+- 
+-  [Review of Architecture and Optimization on Intel® Xeon® Scalable Processors in context of Intel® Optimized TensorFlow* on Intel® AI DevCloud by Srivatsa S.,](https://software.intel.com/en-us/articles/review-of-architecture-and-optimization-on-intel-xeon-scalable-processors-in-context-of)
  
 ## Deep Learning Frameworks
   - Tensorflow
@@ -49,9 +51,9 @@ Use these flags to accelerate your code. [Link](https://github.com/prajjwal1/int
   To run tensorboard, use port forwarding, link [here]
   [Performance guide](https://www.tensorflow.org/performance/performance_guide)
   
- - keras
+ - [Keras](keras.io)
  
- -  Pytorch
+ -  [Pytorch](pytorch.org)
    - Issues
    [Cannot find Intel MKL](https://github.com/pytorch/pytorch/issues/1505)
    
@@ -64,6 +66,7 @@ For Tensorflow, check out this article [TensorFlow* Optimizations on Modern Inte
 ## Intel Developer Zone
 - [Visualizing CNN models using Pytorch](https://software.intel.com/en-us/articles/visualising-cnn-models-using-pytorch)
 - [Better Generative modelling through Wasserstein GANs](https://software.intel.com/en-us/articles/better-generative-modelling-through-wasserstein-gans)
+- [Artistic Style Transfer to Virtual Reality ](https://software.intel.com/en-us/articles/art-em-artistic-style-transfer-to-virtual-reality-final-update)
 
 ## Contribution
 Feel free to fork this repository, I want all of Intel SA to send in their PRs to extend this repo to make it more descriptive.
