@@ -1,1 +1,2 @@
 - Maximum memory on Intel DevCloud : 200GB
+- For how many days are we granted DevCloud: 30 days, but it can be extended as per your request
