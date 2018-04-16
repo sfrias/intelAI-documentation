@@ -56,6 +56,8 @@ Use these flags to accelerate your code. [Link](https://github.com/prajjwal1/int
   To run tensorboard, use port forwarding, link [here]
   [Performance guide](https://www.tensorflow.org/performance/performance_guide)
   
+  [TensorFlow* Optimizations for the Intel® Xeon® Scalable Processor](https://ai.intel.com/tensorflow-optimizations-intel-xeon-scalable-processor/)
+  
  - [Keras](keras.io)
    In progress
    
@@ -72,6 +74,7 @@ For Tensorflow, check out this article [TensorFlow* Optimizations on Modern Inte
 - [KNC to KNL - 2x Slower Performance](https://software.intel.com/en-us/forums/intel-many-integrated-core/topic/714969)
 - [Problem operating the cluster](https://software.intel.com/en-us/forums/intel-nervana-ai-academy/topic/742866)
 - [Not getting the required computational power !](https://software.intel.com/en-us/forums/intel-nervana-ai-academy/topic/745718)
+- [How to run jupyter notebook using qsub](https://colfaxresearch.com/discussion/topic/connecting-jupyter-notebook-on-compute-node/)
 
 ## Intel Developer Zone
 For articles check [here](https://github.com/prajjwal1/intelAI-documentation/tree/master)
