@@ -12,6 +12,7 @@ This Documentation is meant to provide you an idea of how Intel architectures wo
 - Optimization
 - Deep Learning Frameworks
 - Architecture
+- FAQs
 - Tutorials
 - Tenchnical articles on IDZ
 
@@ -46,6 +47,9 @@ Use these flags to accelerate your code. [Link](https://github.com/prajjwal1/int
 - [Performance of Classic Matrix Multiplication Algorithm on Intel® Xeon Phi™ Processor System by Sergey Kostrov](https://software.intel.com/en-us/articles/performance-of-classic-matrix-multiplication-algorithm-on-intel-xeon-phi-processor-system)
 -  [Review of Architecture and Optimization on Intel® Xeon® Scalable Processors in context of Intel® Optimized TensorFlow* on Intel® AI DevCloud by Srivatsa S.,](https://software.intel.com/en-us/articles/review-of-architecture-and-optimization-on-intel-xeon-scalable-processors-in-context-of)
  
+ 
+## FAQs, check [here](https://github.com/prajjwal1/intelAI-documentation/blob/master/FAQs.md)
+
 ## Deep Learning Frameworks
   - Tensorflow
   
@@ -53,14 +57,14 @@ Use these flags to accelerate your code. [Link](https://github.com/prajjwal1/int
   [Performance guide](https://www.tensorflow.org/performance/performance_guide)
   
  - [Keras](keras.io)
- 
+   In progress
+   
  -  [Pytorch](pytorch.org)
    - Issues
    [Cannot find Intel MKL](https://github.com/pytorch/pytorch/issues/1505)
    
 ## Articles for usage
 [Python on Colfax Cluster](https://www.kaggle.com/kambarakun/how-to-start-with-python-on-colfax-cluster)
-
 
 For Tensorflow, check out this article [TensorFlow* Optimizations on Modern Intel® Architecture](https://software.intel.com/en-us/articles/tensorflow-optimizations-on-modern-intel-architecture)
 
@@ -71,6 +75,7 @@ For Tensorflow, check out this article [TensorFlow* Optimizations on Modern Inte
 
 ## Intel Developer Zone
 For articles check [here](https://github.com/prajjwal1/intelAI-documentation/tree/master)
+
 
 ## Contribution
 Feel free to fork this repository, I want all of Intel SA to send in their PRs to extend this repo to make it more descriptive.
