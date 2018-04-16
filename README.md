@@ -65,6 +65,17 @@ Use these flags to accelerate your code. [Link](https://github.com/prajjwal1/int
    - Issues
    [Cannot find Intel MKL](https://github.com/pytorch/pytorch/issues/1505)
    
+## Tutorials on Intel architecture (Requires support)
+  - Computer Vision
+  - Deep Learning
+  - Machine Learning
+  - Generative modelling
+  - Natural Language processing
+  - Reinforcement Learning
+  - Adversarial Examples
+  
+  This section requires your support, if you have done any project related to above mentioned topics,send in your PRs. 
+  
 ## Articles for usage
 [Python on Colfax Cluster](https://www.kaggle.com/kambarakun/how-to-start-with-python-on-colfax-cluster)
 
