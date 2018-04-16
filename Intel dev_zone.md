@@ -1,0 +1,4 @@
+- [Visualizing CNN models using Pytorch](https://software.intel.com/en-us/articles/visualising-cnn-models-using-pytorch)
+- [Better Generative modelling through Wasserstein GANs](https://software.intel.com/en-us/articles/better-generative-modelling-through-wasserstein-gans)
+- [Artistic Style Transfer to Virtual Reality ](https://software.intel.com/en-us/articles/art-em-artistic-style-transfer-to-virtual-reality-final-update)
+- [Intel® Processors for Deep Learning Training](https://software.intel.com/en-us/articles/intel-processors-for-deep-learning-training)
