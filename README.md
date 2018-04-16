@@ -8,5 +8,8 @@ This Documentation is meant to provide you an idea of how Intel architectures wo
 - Architecture
 - Tutorials
 
+
+## Optimization
+
 ## Contribution
 Feel free to fork this repository, please send in your PRs to make it more descriptive.
