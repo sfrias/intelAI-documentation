@@ -43,9 +43,7 @@ Learn AI theory and follow hands-on exercises with our free courses for software
 - [Intel optimzed Python](https://software.intel.com/en-us/distribution-for-python)
 - [Intel optimzed Tensorflow](https://software.intel.com/en-us/articles/intel-optimized-tensorflow-installation-guide)
 Use these flags to accelerate your code. [Link](https://github.com/prajjwal1/intelAI-documentation/blob/master/opt_flags)
-
 - [Performance of Classic Matrix Multiplication Algorithm on Intel® Xeon Phi™ Processor System by Sergey Kostrov](https://software.intel.com/en-us/articles/performance-of-classic-matrix-multiplication-algorithm-on-intel-xeon-phi-processor-system)
-- 
 -  [Review of Architecture and Optimization on Intel® Xeon® Scalable Processors in context of Intel® Optimized TensorFlow* on Intel® AI DevCloud by Srivatsa S.,](https://software.intel.com/en-us/articles/review-of-architecture-and-optimization-on-intel-xeon-scalable-processors-in-context-of)
  
 ## Deep Learning Frameworks
@@ -65,6 +63,11 @@ Use these flags to accelerate your code. [Link](https://github.com/prajjwal1/int
 
 
 For Tensorflow, check out this article [TensorFlow* Optimizations on Modern Intel® Architecture](https://software.intel.com/en-us/articles/tensorflow-optimizations-on-modern-intel-architecture)
+
+## Issues
+- [KNC to KNL - 2x Slower Performance](https://software.intel.com/en-us/forums/intel-many-integrated-core/topic/714969)
+- [Problem operating the cluster](https://software.intel.com/en-us/forums/intel-nervana-ai-academy/topic/742866)
+- [Not getting the required computational power !](https://software.intel.com/en-us/forums/intel-nervana-ai-academy/topic/745718)
 
 ## Intel Developer Zone
 For articles check [here](https://github.com/prajjwal1/intelAI-documentation/tree/master)
