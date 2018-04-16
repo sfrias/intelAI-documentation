@@ -44,7 +44,7 @@ Learn AI theory and follow hands-on exercises with our free courses for software
 - [Intel optimzed Tensorflow](https://software.intel.com/en-us/articles/intel-optimized-tensorflow-installation-guide)
 Use these flags to accelerate your code. [Link](https://github.com/prajjwal1/intelAI-documentation/blob/master/opt_flags)
 
-- [Performance of Classic Matrix Multiplication Algorithm on Intel® Xeon Phi™ Processor System by Sergey Kostrov](Performance of Classic Matrix Multiplication Algorithm on Intel® Xeon Phi™ Processor System)
+- [Performance of Classic Matrix Multiplication Algorithm on Intel® Xeon Phi™ Processor System by Sergey Kostrov](https://software.intel.com/en-us/articles/performance-of-classic-matrix-multiplication-algorithm-on-intel-xeon-phi-processor-system)
 - 
 -  [Review of Architecture and Optimization on Intel® Xeon® Scalable Processors in context of Intel® Optimized TensorFlow* on Intel® AI DevCloud by Srivatsa S.,](https://software.intel.com/en-us/articles/review-of-architecture-and-optimization-on-intel-xeon-scalable-processors-in-context-of)
  
