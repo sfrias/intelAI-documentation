@@ -15,7 +15,7 @@ This Documentation is meant to provide you an idea of how Intel architectures wo
 - Architecture
 - FAQs
 - Tutorials
-- Tenchnical articles on IDZ
+- Technical articles on IDZ
 
 # Intel Services
  ## Intel DevCloud
