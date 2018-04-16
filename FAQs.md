@@ -1,0 +1,1 @@
+- Maximum memory on Intel DevCloud : 200GB
