@@ -31,15 +31,17 @@ Link for documentation is [intelai.ml](http://intelai.ml/) (for easy sharing)
  ## Intel DevCloud
 Free cloud compute is now available for Intel® AI Academy members. Use Intel® AI DevCloud powered by Intel® Xeon® Scalable  processors for your machine learning and deep learning training and inference compute needs.
 - [Intel Deep Learning Cloud & System](https://software.intel.com/en-us/articles/art-em-artistic-style-transfer-to-virtual-reality-final-update)
-- [Intel Deep learning 501 course](https://software.intel.com/en-us/ai-academy/students/kits/deep-learning-501/week1)
-
 
 - To get access to Intel DevCloud, click [here](https://software.intel.com/en-us/ai-academy/tools/devcloud)
 - Getting started with [Intel DevCloud](https://software.intel.com/en-us/articles/getting-started-with-the-intel-nervana-ai-devcloud)
 
+  - Issues
+     - [DevCloud No space left on device error](https://communities.intel.com/message/527985#527985)
 ## Intel Movidus
 [Getting started](https://developer.movidius.com/start)
-
+  - Issues
+     - [Running custom TensorFlow model on NCS](https://ncsforum.movidius.com/discussion/703/myriad-error-running-custom-tensorflow-model-on-ncs#latest)
+     
  ## Intel Community
 If you have any query regarding usage, refer to [Intel Community](https://communities.intel.com/community/tech/intel-ai-academy)
 
@@ -90,6 +92,8 @@ Use these flags to accelerate your code. [Link](https://github.com/prajjwal1/int
   - Natural Language processing
   - Reinforcement Learning
   - Adversarial Examples
+  
+ - [Intel Deep learning 501 course](https://software.intel.com/en-us/ai-academy/students/kits/deep-learning-501/week1)
   
   This section requires your support, if you have done any project related to above mentioned topics,send in your PRs. 
   
