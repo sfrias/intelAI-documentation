@@ -23,6 +23,7 @@ Link for documentation is [intelai.ml](http://intelai.ml/) (for easy sharing)
 - Deep Learning Frameworks
 - Architecture
 - FAQs
+- Implementations
 - Tutorials
 - Technical articles on IDZ
 
@@ -76,6 +77,11 @@ Use these flags to accelerate your code. [Link](https://github.com/prajjwal1/int
    - Issues
    [Cannot find Intel MKL](https://github.com/pytorch/pytorch/issues/1505)
    
+## Implementations
+- [Wasserstein GANs](https://github.com/prajjwal1/gans)
+- [XNOR Nets](https://github.com/akhauriyash/XNOR-Nets)
+- [XNOR Neural Network functions](https://github.com/akhauriyash/XNOR-Intel-ISA)
+
 ## Tutorials on Intel architecture (Requires support)
   - Computer Vision
   - Deep Learning
