@@ -35,12 +35,12 @@ Free cloud compute is now available for Intel® AI Academy members. Use Intel® 
 - To get access to Intel DevCloud, click [here](https://software.intel.com/en-us/ai-academy/tools/devcloud)
 - Getting started with [Intel DevCloud](https://software.intel.com/en-us/articles/getting-started-with-the-intel-nervana-ai-devcloud)
 
-  - Issues
-     - [DevCloud No space left on device error](https://communities.intel.com/message/527985#527985)
+#### For issues, check [here](https://github.com/prajjwal1/intelAI-documentation/blob/master/devcloud/issues.md)
+
 ## Intel Movidus
 [Getting started](https://developer.movidius.com/start)
-  - Issues
-     - [Running custom TensorFlow model on NCS](https://ncsforum.movidius.com/discussion/703/myriad-error-running-custom-tensorflow-model-on-ncs#latest)
+  
+   #### For issues  related to movidius NCS , check [here](https://github.com/prajjwal1/intelAI-       documentation/blob/master/movidius%20ncs/issues.md)
      
  ## Intel Community
 If you have any query regarding usage, refer to [Intel Community](https://communities.intel.com/community/tech/intel-ai-academy)
@@ -56,7 +56,6 @@ Learn AI theory and follow hands-on exercises with our free courses for software
  ### Requirements
 - [Intel optimzed Python](https://software.intel.com/en-us/distribution-for-python)
 - [Intel optimzed Tensorflow](https://software.intel.com/en-us/articles/intel-optimized-tensorflow-installation-guide)
-Use these flags to accelerate your code. [Link](https://github.com/prajjwal1/intelAI-documentation/blob/master/opt_flags)
 - [Performance of Classic Matrix Multiplication Algorithm on Intel® Xeon Phi™ Processor System by Sergey Kostrov](https://software.intel.com/en-us/articles/performance-of-classic-matrix-multiplication-algorithm-on-intel-xeon-phi-processor-system)
  
  
@@ -64,25 +63,19 @@ Use these flags to accelerate your code. [Link](https://github.com/prajjwal1/int
 
 ## Deep Learning Frameworks
   - Tensorflow
+     - Use these flags to accelerate your code. [Link](https://github.com/prajjwal1/intelAI-documentation/blob/master/tensorflow/tensorflow_opt.md)
+     - To run tensorboard, use port forwarding, link [here](https://github.com/prajjwal1/intelAI-documentation/blob/master/port_forward)
+ [Performance guide](https://www.tensorflow.org/performance/performance_guide)
   
-     - To run tensorboard, use port forwarding, link [here]
-  [Performance guide](https://www.tensorflow.org/performance/performance_guide)
-  
-    - [TensorFlow* Optimizations for the Intel® Xeon® Scalable Processor](https://ai.intel.com/tensorflow-optimizations-intel-xeon-scalable-processor/)
-  
-    -  [Review of Architecture and Optimization on Intel® Xeon® Scalable Processors in context of Intel® Optimized TensorFlow* on Intel® AI DevCloud by Srivatsa S.,](https://software.intel.com/en-us/articles/review-of-architecture-and-optimization-on-intel-xeon-scalable-processors-in-context-of)
+  Articles related to Tensorflow are [here](https://github.com/prajjwal1/intelAI-documentation/blob/master/tensorflow/blogs)
   
  - [Keras](keras.io)
    In progress
    
  -  [Pytorch](pytorch.org)
-   - Issues
-   [Cannot find Intel MKL](https://github.com/pytorch/pytorch/issues/1505)
+  For issues, check [here](https://github.com/prajjwal1/intelAI-documentation/blob/master/pytorch/issues.md)
    
-## Implementations
-- [Wasserstein GANs](https://github.com/prajjwal1/gans)
-- [XNOR Nets](https://github.com/akhauriyash/XNOR-Nets)
-- [XNOR Neural Network functions](https://github.com/akhauriyash/XNOR-Intel-ISA)
+## Implementations are listed [here](https://github.com/prajjwal1/intelAI-documentation/blob/master/implementations.md)
 
 ## Tutorials on Intel architecture (Requires support)
   - Computer Vision
@@ -96,21 +89,11 @@ Use these flags to accelerate your code. [Link](https://github.com/prajjwal1/int
  - [Intel Deep learning 501 course](https://software.intel.com/en-us/ai-academy/students/kits/deep-learning-501/week1)
   
   This section requires your support, if you have done any project related to above mentioned topics,send in your PRs. 
-  
-## Articles for usage
-[Python on Colfax Cluster](https://www.kaggle.com/kambarakun/how-to-start-with-python-on-colfax-cluster)
 
 For Tensorflow, check out this article [TensorFlow* Optimizations on Modern Intel® Architecture](https://software.intel.com/en-us/articles/tensorflow-optimizations-on-modern-intel-architecture)
 
-## Issues
-- [KNC to KNL - 2x Slower Performance](https://software.intel.com/en-us/forums/intel-many-integrated-core/topic/714969)
-- [Problem operating the cluster](https://software.intel.com/en-us/forums/intel-nervana-ai-academy/topic/742866)
-- [Not getting the required computational power !](https://software.intel.com/en-us/forums/intel-nervana-ai-academy/topic/745718)
-- [How to run jupyter notebook using qsub](https://colfaxresearch.com/discussion/topic/connecting-jupyter-notebook-on-compute-node/)
-
 ## Intel Developer Zone
-For articles check [here](https://github.com/prajjwal1/intelAI-documentation/tree/master)
-
+For articles check [here](https://github.com/prajjwal1/intelAI-documentation/blob/master/Intel%20dev_zone.md)
 
 ## Contribution
 Feel free to fork this repository, I want all of Intel SA to send in their PRs to extend this repo to make it more descriptive.
