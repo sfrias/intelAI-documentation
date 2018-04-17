@@ -40,7 +40,7 @@ Free cloud compute is now available for Intel® AI Academy members. Use Intel® 
 ## Intel Movidus
 [Getting started](https://developer.movidius.com/start)
   
-   #### For issues  related to movidius NCS , check [here](https://github.com/prajjwal1/intelAI-       documentation/blob/master/movidius%20ncs/issues.md)
+   For issues  related to movidius NCS , check [here](https://github.com/prajjwal1/intelAI-       documentation/blob/master/movidius%20ncs/issues.md)
      
  ## Intel Community
 If you have any query regarding usage, refer to [Intel Community](https://communities.intel.com/community/tech/intel-ai-academy)
