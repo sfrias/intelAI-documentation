@@ -1,12 +1,4 @@
 # intelAI-documentation
-<div align="center">
-  <img src="https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1505768454/wrhwa2ogipbd1o6tgggi.png"><br><br>
-</div>
-
-| **`Documentation`** |
-|-----------------|
-| [![Documentation](https://img.shields.io/badge/api-reference-blue.svg)](https://www.tensorflow.org/api_docs/) | ![Build Status]
-
 This Documentation is meant to provide you an idea of how Intel architectures work and how you can optimize it as per your own potential to get the required performance. It also features tutorials for many domains which will definitely help you out for own applications as well. I want this repo to be ulimate resource for everything Intel. 
 
 ## This documentation is in early beta, so expect some adventures
