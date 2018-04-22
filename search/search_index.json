@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Intel AI Documentation\n\n\n\n\nintelai.ml\n\n\nThis Documentation is meant to provide you an idea of how Intel architectures work and how you can optimize it as per your own potential to get the required performance. It also features tutorials for many domains which will definitely help you out for own applications as well. I want this repo to be ulimate resource for everything Intel. \n\n\nThis documentation is in early beta, so expect some adventures\n\n\nContribution\nFeel free to fork this repository, I want all of Intel SA to send in their PRs to extend this repo to make it more descriptive.\n\n\nIntel Student Ambassador \nSlack channel",
+            "text": "Intel AI Documentation\n\n\n\n\nintelai.ml\n\n\nYou've just found IntelAI Doc\n\n\nIntelAI Doc is meant to provide you how you can make use of Intel's architectures to build AI applications for research,commercial or deployment purpose. It has everything which you may require to optimize your code and run it effectively. \n\n\nThis documentation is in early beta, so expect some adventures\n\n\nContribution\n\n\nFeel free to fork this repository, I want all of Intel SA to send in their PRs to extend this repo to make it more descriptive.\n\n\nIntel Student Ambassador \nSlack channel",
             "title": "Home"
         },
         {
@@ -12,13 +12,13 @@
         },
         {
             "location": "/#intelaiml",
-            "text": "This Documentation is meant to provide you an idea of how Intel architectures work and how you can optimize it as per your own potential to get the required performance. It also features tutorials for many domains which will definitely help you out for own applications as well. I want this repo to be ulimate resource for everything Intel.",
+            "text": "You've just found IntelAI Doc  IntelAI Doc is meant to provide you how you can make use of Intel's architectures to build AI applications for research,commercial or deployment purpose. It has everything which you may require to optimize your code and run it effectively.   This documentation is in early beta, so expect some adventures",
             "title": "intelai.ml"
         },
         {
-            "location": "/#this-documentation-is-in-early-beta-so-expect-some-adventures",
-            "text": "Contribution\nFeel free to fork this repository, I want all of Intel SA to send in their PRs to extend this repo to make it more descriptive.  Intel Student Ambassador  Slack channel",
-            "title": "This documentation is in early beta, so expect some adventures"
+            "location": "/#contribution",
+            "text": "Feel free to fork this repository, I want all of Intel SA to send in their PRs to extend this repo to make it more descriptive.  Intel Student Ambassador  Slack channel",
+            "title": "Contribution"
         },
         {
             "location": "/optimization/",
@@ -119,6 +119,31 @@
             "location": "/intel_services/#to-ask-questions-refer-here",
             "text": "",
             "title": "To ask questions, refer here"
+        },
+        {
+            "location": "/blogs/",
+            "text": "If you have published a blog on Intel Developer zone, and want it to appear here. Please send a PR.\n\n\nComputer Vision\n\n\n\n\nVisualizing CNN models using Pytorch\n\n\n\n\nGenerative Adversarial Networks\n\n\n\n\nBetter Generative modelling through Wasserstein GANs\n\n\n\n\nVirtual Reality\n\n\n\n\nArtistic Style Transfer to Virtual Reality \n\n\n\n\nIntel architecture\n\n\n\n\nIntel\u00ae Processors for Deep Learning Training",
+            "title": "Blogs"
+        },
+        {
+            "location": "/blogs/#computer-vision",
+            "text": "Visualizing CNN models using Pytorch",
+            "title": "Computer Vision"
+        },
+        {
+            "location": "/blogs/#generative-adversarial-networks",
+            "text": "Better Generative modelling through Wasserstein GANs",
+            "title": "Generative Adversarial Networks"
+        },
+        {
+            "location": "/blogs/#virtual-reality",
+            "text": "Artistic Style Transfer to Virtual Reality",
+            "title": "Virtual Reality"
+        },
+        {
+            "location": "/blogs/#intel-architecture",
+            "text": "Intel\u00ae Processors for Deep Learning Training",
+            "title": "Intel architecture"
         },
         {
             "location": "/issues/",
