@@ -122,8 +122,23 @@
         },
         {
             "location": "/issues/",
-            "text": "",
+            "text": "These are the issues which have been resolved or are in progress of being solved. Please send a PR if you've encountered an issue which may help others\n\n\nAI DevCloud\n\n\n\n\nKNC to KNL - 2x Slower Performance\n\n\nProblem operating the cluster\n\n\nNot getting the required computational power !\n\n\nHow to run jupyter notebook using qsub\n\n\nDevCloud No space left on device error\n\n\n\n\nPytorch\n\n\n\n\nCannot find Intel MKL\n\n\n\n\nIntel Movidius NCS\n\n\n\n\nRunning custom TensorFlow model on NCS",
             "title": "Issues"
+        },
+        {
+            "location": "/issues/#ai-devcloud",
+            "text": "KNC to KNL - 2x Slower Performance  Problem operating the cluster  Not getting the required computational power !  How to run jupyter notebook using qsub  DevCloud No space left on device error",
+            "title": "AI DevCloud"
+        },
+        {
+            "location": "/issues/#pytorch",
+            "text": "Cannot find Intel MKL",
+            "title": "Pytorch"
+        },
+        {
+            "location": "/issues/#intel-movidius-ncs",
+            "text": "Running custom TensorFlow model on NCS",
+            "title": "Intel Movidius NCS"
         },
         {
             "location": "/FAQs/",
