@@ -11,6 +11,22 @@
 
     
     <url>
+     <loc>/optimization/</loc>
+     <lastmod>2018-04-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/dl_frameworks/</loc>
+     <lastmod>2018-04-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
      <loc>/tutorials/</loc>
      <lastmod>2018-04-22</lastmod>
      <changefreq>daily</changefreq>
@@ -19,7 +35,23 @@
 
     
     <url>
-     <loc>/Intel dev_zone/</loc>
+     <loc>/implementations/</loc>
+     <lastmod>2018-04-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/intel_services/</loc>
+     <lastmod>2018-04-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/issues/</loc>
      <lastmod>2018-04-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -28,14 +60,6 @@
     
     <url>
      <loc>/FAQs/</loc>
-     <lastmod>2018-04-22</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/implementations/</loc>
      <lastmod>2018-04-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
