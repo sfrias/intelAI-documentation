@@ -1,0 +1,114 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "intelAI-documentation\n\n\nThis Documentation is meant to provide you an idea of how Intel architectures work and how you can optimize it as per your own potential to get the required performance. It also features tutorials for many domains which will definitely help you out for own applications as well. I want this repo to be ulimate resource for everything Intel. \n\n\nThis documentation is in early beta, so expect some adventures\n\n\nLink for documentation is \nintelai.ml\n (for easy sharing)\n\n\nTo ask questions, refer \nhere\n\n\nContents\n\n\n\n\nIntel Services\n\n\nIntel DevCloud\n\n\nIntel community\n\n\nIntel Student Kits\n\n\nOptimization\n\n\nDeep Learning Frameworks\n\n\nArchitecture\n\n\nFAQs\n\n\nImplementations\n\n\nTutorials\n\n\nTechnical articles on IDZ\n\n\n\n\nIntel Services\n\n\n## Intel DevCloud\nFree cloud compute is now available for Intel\u00ae AI Academy members. Use Intel\u00ae AI DevCloud powered by Intel\u00ae Xeon\u00ae Scalable  processors for your machine learning and deep learning training and inference compute needs.\n- \nIntel Deep Learning Cloud & System\n\n\n\n\nTo get access to Intel DevCloud, click \nhere\n\n\nGetting started with \nIntel DevCloud\n\n\n\n\nFor issues, check \nhere\n\n\nIntel Movidus\n\n\nGetting started\n\n\nFor issues  related to movidius NCS , check \nhere\n\n\n## Intel Community\nIf you have any query regarding usage, refer to \nIntel Community\n\n\n## Intel Student Kits\nLearn AI theory and follow hands-on exercises with our free courses for software developers, data scientists, and students. These lessons cover AI topics and explore tools and optimized libraries that take advantage of Intel\u00ae processors in personal computers and server workstations. \nLink\n\n\nIntel libraries\n\n\nSee here\n\n\nIntel Math kernel library\n\n\nOptimization\n\n\n### Requirements\n- \nIntel optimzed Python\n\n- \nIntel optimzed Tensorflow\n\n- \nPerformance of Classic Matrix Multiplication Algorithm on Intel\u00ae Xeon Phi\u2122 Processor System by Sergey Kostrov\n\n\nFAQs, check \nhere\n\n\nDeep Learning Frameworks\n\n\n\n\nTensorflow\n\n\nUse these flags to accelerate your code. \nLink\n\n\nTo run tensorboard, use port forwarding, link \nhere\n\n \nPerformance guide\n\n\n\n\n\n\n\n\nArticles related to Tensorflow are \nhere\n\n\n\n\n\n\nKeras\n\n   In progress\n\n\n\n\n\n\nPytorch\n\n  For issues, check \nhere\n\n\n\n\n\n\nImplementations are listed \nhere\n\n\nTutorials on Intel architecture (Requires support)\n\n\n\n\nComputer Vision\n\n\nDeep Learning\n\n\nMachine Learning\n\n\nGenerative modelling\n\n\nNatural Language processing\n\n\nReinforcement Learning\n\n\n\n\nAdversarial Examples\n\n\n\n\n\n\nIntel Deep learning 501 course\n\n\n\n\n\n\nThis section requires your support, if you have done any project related to above mentioned topics,send in your PRs. \n\n\nFor Tensorflow, check out this article \nTensorFlow* Optimizations on Modern Intel\u00ae Architecture\n\n\nIntel Developer Zone\n\n\nFor articles check \nhere\n\n\nContribution\n\n\nFeel free to fork this repository, I want all of Intel SA to send in their PRs to extend this repo to make it more descriptive.\n\n\nIntel Student Ambassador \nSlack channel",
+            "title": "Home"
+        },
+        {
+            "location": "/#intelai-documentation",
+            "text": "This Documentation is meant to provide you an idea of how Intel architectures work and how you can optimize it as per your own potential to get the required performance. It also features tutorials for many domains which will definitely help you out for own applications as well. I want this repo to be ulimate resource for everything Intel.",
+            "title": "intelAI-documentation"
+        },
+        {
+            "location": "/#this-documentation-is-in-early-beta-so-expect-some-adventures",
+            "text": "Link for documentation is  intelai.ml  (for easy sharing)",
+            "title": "This documentation is in early beta, so expect some adventures"
+        },
+        {
+            "location": "/#to-ask-questions-refer-here",
+            "text": "",
+            "title": "To ask questions, refer here"
+        },
+        {
+            "location": "/#contents",
+            "text": "Intel Services  Intel DevCloud  Intel community  Intel Student Kits  Optimization  Deep Learning Frameworks  Architecture  FAQs  Implementations  Tutorials  Technical articles on IDZ",
+            "title": "Contents"
+        },
+        {
+            "location": "/#intel-services",
+            "text": "## Intel DevCloud\nFree cloud compute is now available for Intel\u00ae AI Academy members. Use Intel\u00ae AI DevCloud powered by Intel\u00ae Xeon\u00ae Scalable  processors for your machine learning and deep learning training and inference compute needs.\n-  Intel Deep Learning Cloud & System   To get access to Intel DevCloud, click  here  Getting started with  Intel DevCloud",
+            "title": "Intel Services"
+        },
+        {
+            "location": "/#for-issues-check-here",
+            "text": "",
+            "title": "For issues, check here"
+        },
+        {
+            "location": "/#intel-movidus",
+            "text": "Getting started  For issues  related to movidius NCS , check  here  ## Intel Community\nIf you have any query regarding usage, refer to  Intel Community  ## Intel Student Kits\nLearn AI theory and follow hands-on exercises with our free courses for software developers, data scientists, and students. These lessons cover AI topics and explore tools and optimized libraries that take advantage of Intel\u00ae processors in personal computers and server workstations.  Link",
+            "title": "Intel Movidus"
+        },
+        {
+            "location": "/#intel-libraries",
+            "text": "See here  Intel Math kernel library",
+            "title": "Intel libraries"
+        },
+        {
+            "location": "/#optimization",
+            "text": "### Requirements\n-  Intel optimzed Python \n-  Intel optimzed Tensorflow \n-  Performance of Classic Matrix Multiplication Algorithm on Intel\u00ae Xeon Phi\u2122 Processor System by Sergey Kostrov",
+            "title": "Optimization"
+        },
+        {
+            "location": "/#faqs-check-here",
+            "text": "",
+            "title": "FAQs, check here"
+        },
+        {
+            "location": "/#deep-learning-frameworks",
+            "text": "Tensorflow  Use these flags to accelerate your code.  Link  To run tensorboard, use port forwarding, link  here \n  Performance guide     Articles related to Tensorflow are  here    Keras \n   In progress    Pytorch \n  For issues, check  here",
+            "title": "Deep Learning Frameworks"
+        },
+        {
+            "location": "/#implementations-are-listed-here",
+            "text": "",
+            "title": "Implementations are listed here"
+        },
+        {
+            "location": "/#tutorials-on-intel-architecture-requires-support",
+            "text": "Computer Vision  Deep Learning  Machine Learning  Generative modelling  Natural Language processing  Reinforcement Learning   Adversarial Examples    Intel Deep learning 501 course    This section requires your support, if you have done any project related to above mentioned topics,send in your PRs.   For Tensorflow, check out this article  TensorFlow* Optimizations on Modern Intel\u00ae Architecture",
+            "title": "Tutorials on Intel architecture (Requires support)"
+        },
+        {
+            "location": "/#intel-developer-zone",
+            "text": "For articles check  here",
+            "title": "Intel Developer Zone"
+        },
+        {
+            "location": "/#contribution",
+            "text": "Feel free to fork this repository, I want all of Intel SA to send in their PRs to extend this repo to make it more descriptive.",
+            "title": "Contribution"
+        },
+        {
+            "location": "/#intel-student-ambassador-slack-channel",
+            "text": "",
+            "title": "Intel Student Ambassador Slack channel"
+        },
+        {
+            "location": "/tutorials/",
+            "text": "",
+            "title": "Tutorials"
+        },
+        {
+            "location": "/Intel dev_zone/",
+            "text": "Visualizing CNN models using Pytorch\n\n\nBetter Generative modelling through Wasserstein GANs\n\n\nArtistic Style Transfer to Virtual Reality \n\n\nIntel\u00ae Processors for Deep Learning Training",
+            "title": "Intel Dev Zone"
+        },
+        {
+            "location": "/FAQs/",
+            "text": "Maximum memory on Intel DevCloud : 200GB\n\n\nFor how many days are we granted DevCloud: 30 days, but it can be extended as per your request",
+            "title": "FAQs"
+        },
+        {
+            "location": "/implementations/",
+            "text": "Implementations\n\n\nThese are the implementations of various projects related to AI on Intel's architecture\n- \nWasserstein GANs\n\n- \nXNOR Nets\n\n- \nXNOR Neural Network functions",
+            "title": "Implementations"
+        },
+        {
+            "location": "/implementations/#implementations",
+            "text": "These are the implementations of various projects related to AI on Intel's architecture\n-  Wasserstein GANs \n-  XNOR Nets \n-  XNOR Neural Network functions",
+            "title": "Implementations"
+        }
+    ]
+}

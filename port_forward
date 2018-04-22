@@ -1,0 +1,1 @@
+"ssh -L 6006:localhost:6006 <loginHost> ssh -L 6006:localhost:6006 <node name>"
