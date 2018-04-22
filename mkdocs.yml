@@ -6,6 +6,7 @@ pages:
     - Tutorials: tutorials.md
     - Implementations: implementations.md
     - Intel services: intel_services.md
+    - Blogs: blogs.md
     - Issues: issues.md
     - FAQs: FAQs.md
 theme: readthedocs
