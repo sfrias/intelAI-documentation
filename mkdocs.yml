@@ -1,0 +1,11 @@
+site_name: Intel AI Documentation
+pages:
+    - Home: index.md
+    - Optimization: optimization.md
+    - Deep Learning Frameworks: dl_frameworks.md
+    - Tutorials: tutorials.md
+    - Implementations: implementations.md
+    - Intel services: intel_services.md
+    - Issues: issues.md
+    - FAQs: FAQs.md
+theme: readthedocs
