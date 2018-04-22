@@ -25,3 +25,6 @@ Learn AI theory and follow hands-on exercises with our free courses for software
 
 
 ### To ask questions, refer [here](https://communities.intel.com/community/tech/intel-ai-academy)
+
+## Contribution
+If you want to expand this section, consider sending a PR or contact [author](https://twitter.com/prajjwal_1)

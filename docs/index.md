@@ -5,12 +5,12 @@
 ## [intelai.ml](intelai.ml) 
 You've just found IntelAI Doc
 
-IntelAI Doc is meant to provide you how you can make use of Intel's architectures to build AI applications for research,commercial or deployment purpose. It has everything which you may require to optimize your code and run it effectively. 
+IntelAI Doc is meant to provide you how you can make use of Intel's architectures to build AI applications for research,commercial or deployment purpose. It has everything which you may require from optimizing your code and run it effectively to building AI applications. 
 
 This documentation is in early beta, so expect some adventures
 
 
 ## Contribution
-Feel free to fork this repository, I want all of Intel SA to send in their PRs to extend this repo to make it more descriptive.
+If you want something to be added that's relevant to the content present in doc, consider sending a PR or you may contact [author](https://twitter.com/prajjwal_1)
 
-Intel Student Ambassador [Slack channel](https://intelstudentamb.slack.com/)
+To join Intel Student Ambassador [Slack channel](https://intelstudentamb.slack.com/)

@@ -56,3 +56,6 @@ As of now, its almost same for Pytorch, only the tf flags have been removed. Ben
 To gather more knowledge you can refer to these resources:
 
 - [Performance of Classic Matrix Multiplication Algorithm on Intel® Xeon Phi™ Processor System by Sergey Kostrov](https://software.intel.com/en-us/articles/performance-of-classic-matrix-multiplication-algorithm-on-intel-xeon-phi-processor-system)
+
+## Contribution
+Send a PR or contact [author](https://twitter.com/prajjwal_1) to expand this section

@@ -1,5 +1,3 @@
-These are the issues which have been resolved or are in progress of being solved. Please send a PR if you've encountered an issue which may help others
-
 ## AI DevCloud
 - [KNC to KNL - 2x Slower Performance](https://software.intel.com/en-us/forums/intel-many-integrated-core/topic/714969)
 - [Problem operating the cluster](https://software.intel.com/en-us/forums/intel-nervana-ai-academy/topic/742866)
@@ -12,3 +10,5 @@ These are the issues which have been resolved or are in progress of being solved
 
 ## Intel Movidius NCS 
  - [Running custom TensorFlow model on NCS](https://ncsforum.movidius.com/discussion/703/myriad-error-running-custom-tensorflow-model-on-ncs#latest)
+
+These are the issues which have been resolved or are in progress of being solved. Please send a PR or contact [author](https://twitter.com/prajjwal_1) if you want some issues to be added that may help others.
