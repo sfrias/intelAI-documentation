@@ -11,6 +11,6 @@ This documentation is in early beta, so expect some adventures
 
 
 ## Contribution
-If you want something to be added that's relevant to the content present in doc, consider sending a PR or you may contact [author](https://twitter.com/prajjwal_1)
+If you want something to be added that's relevant to the content present in doc, consider sending a PR to this [repo](https://github.com/prajjwal1/intelAI-documentation) or you may DM [author](https://twitter.com/prajjwal_1)
 
 To join Intel Student Ambassador [Slack channel](https://intelstudentamb.slack.com/)
