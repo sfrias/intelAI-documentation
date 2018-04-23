@@ -1,198 +1,198 @@
 {
     "docs": [
         {
-            "location": "/",
-            "text": "Intel AI Documentation\n\n\n\n\nintelai.ml\n\n\nYou've just found IntelAI Doc\n\n\nIntelAI Doc is meant to provide you how you can make use of Intel's architectures to build AI applications for research,commercial or deployment purpose. It has everything which you may require from optimizing your code and run it effectively to building AI applications. \n\n\nThis documentation is in early beta, so expect some adventures\n\n\nContribution\n\n\nIf you want something to be added that's relevant to the content present in doc, consider sending a PR or you may contact \nauthor\n\n\nTo join Intel Student Ambassador \nSlack channel",
+            "location": "/", 
+            "text": "Intel AI Documentation\n\n\n\n\nintelai.ml\n\n\nYou've just found IntelAI Doc\n\n\nIntelAI Doc is meant to provide you how you can make use of Intel's architectures to build AI applications for research,commercial or deployment purpose. It has everything which you may require from optimizing your code and run it effectively to building AI applications. \n\n\nThis documentation is in early beta, so expect some adventures\n\n\nContribution\n\n\nIf you want something to be added that's relevant to the content present in doc, consider sending a PR to this \nrepo\n or you may DM \nauthor\n\n\nTo join Intel Student Ambassador \nSlack channel", 
             "title": "Home"
-        },
+        }, 
         {
-            "location": "/#intel-ai-documentation",
-            "text": "",
+            "location": "/#intel-ai-documentation", 
+            "text": "", 
             "title": "Intel AI Documentation"
-        },
+        }, 
         {
-            "location": "/#intelaiml",
-            "text": "You've just found IntelAI Doc  IntelAI Doc is meant to provide you how you can make use of Intel's architectures to build AI applications for research,commercial or deployment purpose. It has everything which you may require from optimizing your code and run it effectively to building AI applications.   This documentation is in early beta, so expect some adventures",
+            "location": "/#intelaiml", 
+            "text": "You've just found IntelAI Doc  IntelAI Doc is meant to provide you how you can make use of Intel's architectures to build AI applications for research,commercial or deployment purpose. It has everything which you may require from optimizing your code and run it effectively to building AI applications.   This documentation is in early beta, so expect some adventures", 
             "title": "intelai.ml"
-        },
+        }, 
         {
-            "location": "/#contribution",
-            "text": "If you want something to be added that's relevant to the content present in doc, consider sending a PR or you may contact  author  To join Intel Student Ambassador  Slack channel",
+            "location": "/#contribution", 
+            "text": "If you want something to be added that's relevant to the content present in doc, consider sending a PR to this  repo  or you may DM  author  To join Intel Student Ambassador  Slack channel", 
             "title": "Contribution"
-        },
+        }, 
         {
-            "location": "/optimization/",
-            "text": "Optimization\n\n\nRequirements\n\n\n\n\nIntel optimzed Python\n\n\n\n\nTensorflow\n\n\nRequirements\n\n\n\n\nIntel optimzed Tensorflow\n\n\n\n\nAdd this snippet on top of your code\n\n\nos.environ[\"OMP_NUM_THREADS\"] = \"64\"\nos.environ[\"KMP_BLOCKTIME\"] = \"0\"\nos.environ[\"KMP_SETTINGS\"] = \"1\"\nos.environ[\"KMP_AFFINITY\"]= \"granularity=fine,verbose,compact,1,0\"\nFLAGS = tf.app.flags.FLAGS\ntf.app.flags.DEFINE_integer('inter_op', 1, \"\"\"Inter Op Parallelism Threads.\"\"\")\ntf.app.flags.DEFINE_integer('intra_op', 64, \"\"\"Intra Op Parallelism Threads.\"\"\") \nnumactl --interleave=all python <script name>\n \n\n\nKeras\n\n\nRequirements\n\n\n\n\nIntel optimzed Tensorflow\n\n\n\n\nAdd this snippet on top of your code\n\n\nos.environ[\"OMP_NUM_THREADS\"] = \"64\"\nos.environ[\"KMP_BLOCKTIME\"] = \"0\"\nos.environ[\"KMP_SETTINGS\"] = \"1\"\nos.environ[\"KMP_AFFINITY\"]= \"granularity=fine,verbose,compact,1,0\"\nFLAGS = tf.app.flags.FLAGS\ntf.app.flags.DEFINE_integer('inter_op', 1, \"\"\"Inter Op Parallelism Threads.\"\"\")\ntf.app.flags.DEFINE_integer('intra_op', 64, \"\"\"Intra Op Parallelism Threads.\"\"\") \nnumactl --interleave=all python <script name>\n\n\nPytorch\n\n\nAdd this snippet on top of your code\n\n\nos.environ[\"OMP_NUM_THREADS\"] = \"64\"\nos.environ[\"KMP_BLOCKTIME\"] = \"0\"\nos.environ[\"KMP_SETTINGS\"] = \"1\"\nos.environ[\"KMP_AFFINITY\"]= \"granularity=fine,verbose,compact,1,0\"\nnumactl --interleave=all python <script name>\n\n\nAs of now, its almost same for Pytorch, only the tf flags have been removed. Benchmarks will be listed once Intel releases it.\n\n\nTo gather more knowledge you can refer to these resources:\n\n\n\n\nPerformance of Classic Matrix Multiplication Algorithm on Intel\u00ae Xeon Phi\u2122 Processor System by Sergey Kostrov\n\n\n\n\nContribution\n\n\nSend a PR or contact \nauthor\n to expand this section",
+            "location": "/optimization/", 
+            "text": "Optimization\n\n\nRequirements\n\n\n\n\nIntel optimzed Python\n\n\n\n\nTensorflow\n\n\nRequirements\n\n\n\n\nIntel optimzed Tensorflow\n\n\n\n\nAdd this snippet on top of your code\n\n\nos.environ[\"OMP_NUM_THREADS\"] = \"64\"\nos.environ[\"KMP_BLOCKTIME\"] = \"0\"\nos.environ[\"KMP_SETTINGS\"] = \"1\"\nos.environ[\"KMP_AFFINITY\"]= \"granularity=fine,verbose,compact,1,0\"\nFLAGS = tf.app.flags.FLAGS\ntf.app.flags.DEFINE_integer('inter_op', 1, \"\"\"Inter Op Parallelism Threads.\"\"\")\ntf.app.flags.DEFINE_integer('intra_op', 64, \"\"\"Intra Op Parallelism Threads.\"\"\") \nnumactl --interleave=all python \nscript name\n \n\n\nKeras\n\n\nRequirements\n\n\n\n\nIntel optimzed Tensorflow\n\n\n\n\nAdd this snippet on top of your code\n\n\nos.environ[\"OMP_NUM_THREADS\"] = \"64\"\nos.environ[\"KMP_BLOCKTIME\"] = \"0\"\nos.environ[\"KMP_SETTINGS\"] = \"1\"\nos.environ[\"KMP_AFFINITY\"]= \"granularity=fine,verbose,compact,1,0\"\nFLAGS = tf.app.flags.FLAGS\ntf.app.flags.DEFINE_integer('inter_op', 1, \"\"\"Inter Op Parallelism Threads.\"\"\")\ntf.app.flags.DEFINE_integer('intra_op', 64, \"\"\"Intra Op Parallelism Threads.\"\"\") \nnumactl --interleave=all python \nscript name\n\n\nPytorch\n\n\nAdd this snippet on top of your code\n\n\nos.environ[\"OMP_NUM_THREADS\"] = \"64\"\nos.environ[\"KMP_BLOCKTIME\"] = \"0\"\nos.environ[\"KMP_SETTINGS\"] = \"1\"\nos.environ[\"KMP_AFFINITY\"]= \"granularity=fine,verbose,compact,1,0\"\nnumactl --interleave=all python \nscript name\n\n\nAs of now, its almost same for Pytorch, only the tf flags have been removed. Benchmarks will be listed once Intel releases it.\n\n\nTo gather more knowledge you can refer to these resources:\n\n\n\n\nPerformance of Classic Matrix Multiplication Algorithm on Intel\u00ae Xeon Phi\u2122 Processor System by Sergey Kostrov\n\n\n\n\nContribution\n\n\nSend a PR or contact \nauthor\n to expand this section", 
             "title": "Optimization"
-        },
+        }, 
         {
-            "location": "/optimization/#optimization",
-            "text": "Requirements   Intel optimzed Python",
+            "location": "/optimization/#optimization", 
+            "text": "Requirements   Intel optimzed Python", 
             "title": "Optimization"
-        },
+        }, 
         {
-            "location": "/optimization/#tensorflow",
-            "text": "Requirements   Intel optimzed Tensorflow   Add this snippet on top of your code  os.environ[\"OMP_NUM_THREADS\"] = \"64\"\nos.environ[\"KMP_BLOCKTIME\"] = \"0\"\nos.environ[\"KMP_SETTINGS\"] = \"1\"\nos.environ[\"KMP_AFFINITY\"]= \"granularity=fine,verbose,compact,1,0\"\nFLAGS = tf.app.flags.FLAGS\ntf.app.flags.DEFINE_integer('inter_op', 1, \"\"\"Inter Op Parallelism Threads.\"\"\")\ntf.app.flags.DEFINE_integer('intra_op', 64, \"\"\"Intra Op Parallelism Threads.\"\"\") \nnumactl --interleave=all python <script name>",
+            "location": "/optimization/#tensorflow", 
+            "text": "Requirements   Intel optimzed Tensorflow   Add this snippet on top of your code  os.environ[\"OMP_NUM_THREADS\"] = \"64\"\nos.environ[\"KMP_BLOCKTIME\"] = \"0\"\nos.environ[\"KMP_SETTINGS\"] = \"1\"\nos.environ[\"KMP_AFFINITY\"]= \"granularity=fine,verbose,compact,1,0\"\nFLAGS = tf.app.flags.FLAGS\ntf.app.flags.DEFINE_integer('inter_op', 1, \"\"\"Inter Op Parallelism Threads.\"\"\")\ntf.app.flags.DEFINE_integer('intra_op', 64, \"\"\"Intra Op Parallelism Threads.\"\"\") \nnumactl --interleave=all python  script name", 
             "title": "Tensorflow"
-        },
+        }, 
         {
-            "location": "/optimization/#keras",
-            "text": "Requirements   Intel optimzed Tensorflow   Add this snippet on top of your code  os.environ[\"OMP_NUM_THREADS\"] = \"64\"\nos.environ[\"KMP_BLOCKTIME\"] = \"0\"\nos.environ[\"KMP_SETTINGS\"] = \"1\"\nos.environ[\"KMP_AFFINITY\"]= \"granularity=fine,verbose,compact,1,0\"\nFLAGS = tf.app.flags.FLAGS\ntf.app.flags.DEFINE_integer('inter_op', 1, \"\"\"Inter Op Parallelism Threads.\"\"\")\ntf.app.flags.DEFINE_integer('intra_op', 64, \"\"\"Intra Op Parallelism Threads.\"\"\") \nnumactl --interleave=all python <script name>",
+            "location": "/optimization/#keras", 
+            "text": "Requirements   Intel optimzed Tensorflow   Add this snippet on top of your code  os.environ[\"OMP_NUM_THREADS\"] = \"64\"\nos.environ[\"KMP_BLOCKTIME\"] = \"0\"\nos.environ[\"KMP_SETTINGS\"] = \"1\"\nos.environ[\"KMP_AFFINITY\"]= \"granularity=fine,verbose,compact,1,0\"\nFLAGS = tf.app.flags.FLAGS\ntf.app.flags.DEFINE_integer('inter_op', 1, \"\"\"Inter Op Parallelism Threads.\"\"\")\ntf.app.flags.DEFINE_integer('intra_op', 64, \"\"\"Intra Op Parallelism Threads.\"\"\") \nnumactl --interleave=all python  script name", 
             "title": "Keras"
-        },
+        }, 
         {
-            "location": "/optimization/#pytorch",
-            "text": "Add this snippet on top of your code  os.environ[\"OMP_NUM_THREADS\"] = \"64\"\nos.environ[\"KMP_BLOCKTIME\"] = \"0\"\nos.environ[\"KMP_SETTINGS\"] = \"1\"\nos.environ[\"KMP_AFFINITY\"]= \"granularity=fine,verbose,compact,1,0\"\nnumactl --interleave=all python <script name>  As of now, its almost same for Pytorch, only the tf flags have been removed. Benchmarks will be listed once Intel releases it.  To gather more knowledge you can refer to these resources:   Performance of Classic Matrix Multiplication Algorithm on Intel\u00ae Xeon Phi\u2122 Processor System by Sergey Kostrov",
+            "location": "/optimization/#pytorch", 
+            "text": "Add this snippet on top of your code  os.environ[\"OMP_NUM_THREADS\"] = \"64\"\nos.environ[\"KMP_BLOCKTIME\"] = \"0\"\nos.environ[\"KMP_SETTINGS\"] = \"1\"\nos.environ[\"KMP_AFFINITY\"]= \"granularity=fine,verbose,compact,1,0\"\nnumactl --interleave=all python  script name  As of now, its almost same for Pytorch, only the tf flags have been removed. Benchmarks will be listed once Intel releases it.  To gather more knowledge you can refer to these resources:   Performance of Classic Matrix Multiplication Algorithm on Intel\u00ae Xeon Phi\u2122 Processor System by Sergey Kostrov", 
             "title": "Pytorch"
-        },
+        }, 
         {
-            "location": "/optimization/#contribution",
-            "text": "Send a PR or contact  author  to expand this section",
+            "location": "/optimization/#contribution", 
+            "text": "Send a PR or contact  author  to expand this section", 
             "title": "Contribution"
-        },
+        }, 
         {
-            "location": "/dl_frameworks/",
-            "text": "Deep Learning Frameworks\n\n\n\n\nTensorflow\n\n\nUse these flags to accelerate your code. \nLink\n\n\nTo run tensorboard, use port forwarding, link \nhere\n\n \nPerformance guide\n\n\n\n\n\n\n\n\nArticles related to Tensorflow are \nhere\n\n  To run Tensorboard, use this\n\n\n$ ssh -L 6006:localhost:6006 <loginHost> ssh -L 6006:localhost:6006 <node name>\n\n\n\n\n\n\nKeras\n\n   In progress\n\n\n\n\n\n\nPytorch\n\n  For issues, check \nhere",
+            "location": "/dl_frameworks/", 
+            "text": "Deep Learning Frameworks\n\n\n\n\nTensorflow\n\n\nUse these flags to accelerate your code. \nLink\n\n\nTo run tensorboard, use port forwarding, link \nhere\n\n \nPerformance guide\n\n\n\n\n\n\n\n\nArticles related to Tensorflow are \nhere\n\n  To run Tensorboard, use this\n\n\n$ ssh -L 6006:localhost:6006 \nloginHost\n ssh -L 6006:localhost:6006 \nnode name\n\n\nSome articles on Tensorflow on Intel architecuture:\n- \nTensorFlow* Optimizations for the Intel\u00ae Xeon\u00ae Scalable Processor\n\n- \nReview of Architecture and Optimization on Intel\u00ae Xeon\u00ae Scalable Processors in context of Intel\u00ae Optimized TensorFlow* on Intel\u00ae AI DevCloud by Srivatsa S.,\n\n\n\n\n\n\nKeras\n\n   In progress\n\n\n\n\n\n\nPytorch\n\n  For issues, check \nhere", 
             "title": "Deep Learning Frameworks"
-        },
+        }, 
         {
-            "location": "/dl_frameworks/#deep-learning-frameworks",
-            "text": "Tensorflow  Use these flags to accelerate your code.  Link  To run tensorboard, use port forwarding, link  here \n  Performance guide     Articles related to Tensorflow are  here \n  To run Tensorboard, use this  $ ssh -L 6006:localhost:6006 <loginHost> ssh -L 6006:localhost:6006 <node name>    Keras \n   In progress    Pytorch \n  For issues, check  here",
+            "location": "/dl_frameworks/#deep-learning-frameworks", 
+            "text": "Tensorflow  Use these flags to accelerate your code.  Link  To run tensorboard, use port forwarding, link  here \n  Performance guide     Articles related to Tensorflow are  here \n  To run Tensorboard, use this  $ ssh -L 6006:localhost:6006  loginHost  ssh -L 6006:localhost:6006  node name  Some articles on Tensorflow on Intel architecuture:\n-  TensorFlow* Optimizations for the Intel\u00ae Xeon\u00ae Scalable Processor \n-  Review of Architecture and Optimization on Intel\u00ae Xeon\u00ae Scalable Processors in context of Intel\u00ae Optimized TensorFlow* on Intel\u00ae AI DevCloud by Srivatsa S.,    Keras \n   In progress    Pytorch \n  For issues, check  here", 
             "title": "Deep Learning Frameworks"
-        },
+        }, 
         {
-            "location": "/tutorials/",
-            "text": "Tutorials on Intel architecture (Requires support)\n\n\n\n\nComputer Vision\n\n\nDeep Learning\n\n\nMachine Learning\n\n\nGenerative modelling\n\n\nNatural Language processing\n\n\nReinforcement Learning\n\n\nAdversarial Examples\n\n\n\n\nIntel Deep learning 501 course\n\n\nThis section requires your support, if you have done any project related to above mentioned topics,send in your PRs. \n\n\nFor Tensorflow, check out this article \nTensorFlow* Optimizations on Modern Intel\u00ae Architecture",
+            "location": "/tutorials/", 
+            "text": "Tutorials on Intel architecture (Requires support)\n\n\n\n\nComputer Vision\n\n\nDeep Learning\n\n\nMachine Learning\n\n\nGenerative modelling\n\n\nNatural Language processing\n\n\nReinforcement Learning\n\n\nAdversarial Examples\n\n\n\n\nIntel Deep learning 501 course\n\n\nThis section requires your support, if you have done any project related to above mentioned topics,send in your PRs. \n\n\nFor Tensorflow, check out this article \nTensorFlow* Optimizations on Modern Intel\u00ae Architecture", 
             "title": "Tutorials"
-        },
+        }, 
         {
-            "location": "/tutorials/#tutorials-on-intel-architecture-requires-support",
-            "text": "Computer Vision  Deep Learning  Machine Learning  Generative modelling  Natural Language processing  Reinforcement Learning  Adversarial Examples   Intel Deep learning 501 course  This section requires your support, if you have done any project related to above mentioned topics,send in your PRs.   For Tensorflow, check out this article  TensorFlow* Optimizations on Modern Intel\u00ae Architecture",
+            "location": "/tutorials/#tutorials-on-intel-architecture-requires-support", 
+            "text": "Computer Vision  Deep Learning  Machine Learning  Generative modelling  Natural Language processing  Reinforcement Learning  Adversarial Examples   Intel Deep learning 501 course  This section requires your support, if you have done any project related to above mentioned topics,send in your PRs.   For Tensorflow, check out this article  TensorFlow* Optimizations on Modern Intel\u00ae Architecture", 
             "title": "Tutorials on Intel architecture (Requires support)"
-        },
+        }, 
         {
-            "location": "/implementations/",
-            "text": "Implementations\n\n\nThese are the implementations of various projects(AI) which made use ofIntel's architecture. These are open source. Check their License for their usage.\n\n\nGenerative Adversarial Networks\n\n\n\n\nWasserstein GANs\n\n\n\n\nXNOR Neural Networks\n\n\n\n\nXNOR Nets\n\n\nXNOR Neural Network functions\n\n\n\n\nContribution\n\n\nIf you have done a project or performed some implementation, consider sending a PR or contact \nauthor",
+            "location": "/implementations/", 
+            "text": "Implementations\n\n\nThese are the implementations of various projects(AI) which made use ofIntel's architecture. These are open source. Check their License for their usage.\n\n\nGenerative Adversarial Networks\n\n\n\n\nWasserstein GANs\n\n\n\n\nXNOR Neural Networks\n\n\n\n\nXNOR Nets\n\n\nXNOR Neural Network functions\n\n\n\n\nContribution\n\n\nIf you have done a project or performed some implementation, consider sending a PR or contact \nauthor", 
             "title": "Implementations"
-        },
+        }, 
         {
-            "location": "/implementations/#implementations",
-            "text": "These are the implementations of various projects(AI) which made use ofIntel's architecture. These are open source. Check their License for their usage.",
+            "location": "/implementations/#implementations", 
+            "text": "These are the implementations of various projects(AI) which made use ofIntel's architecture. These are open source. Check their License for their usage.", 
             "title": "Implementations"
-        },
+        }, 
         {
-            "location": "/implementations/#generative-adversarial-networks",
-            "text": "Wasserstein GANs",
+            "location": "/implementations/#generative-adversarial-networks", 
+            "text": "Wasserstein GANs", 
             "title": "Generative Adversarial Networks"
-        },
+        }, 
         {
-            "location": "/implementations/#xnor-neural-networks",
-            "text": "XNOR Nets  XNOR Neural Network functions",
+            "location": "/implementations/#xnor-neural-networks", 
+            "text": "XNOR Nets  XNOR Neural Network functions", 
             "title": "XNOR Neural Networks"
-        },
+        }, 
         {
-            "location": "/implementations/#contribution",
-            "text": "If you have done a project or performed some implementation, consider sending a PR or contact  author",
+            "location": "/implementations/#contribution", 
+            "text": "If you have done a project or performed some implementation, consider sending a PR or contact  author", 
             "title": "Contribution"
-        },
+        }, 
         {
-            "location": "/intel_services/",
-            "text": "Intel Services\n\n\nIntel DevCloud\n\n\nFree cloud compute is now available for Intel\u00ae AI Academy members. Use Intel\u00ae AI DevCloud powered by Intel\u00ae Xeon\u00ae Scalable  processors for your machine learning and deep learning training and inference compute needs.\n- \nIntel Deep Learning Cloud & System\n\n\n\n\nTo get access to Intel DevCloud, click \nhere\n\n\nGetting started with \nIntel DevCloud\n\n\n\n\nIntel Developer Zone\n\n\nFor articles check \nhere\n\n\nIntel Community\n\n\nIf you have any query regarding usage, refer to \nIntel Community\n\n\nIntel Movidus\n\n\nGetting started\n\n\nIntel Student Kits\n\n\nLearn AI theory and follow hands-on exercises with our free courses for software developers, data scientists, and students. These lessons cover AI topics and explore tools and optimized libraries that take advantage of Intel\u00ae processors in personal computers and server workstations. \nLink\n\n\nIntel libraries\n\n\nSee here\n\n\nIntel Math kernel library\n\n\nTo ask questions, refer \nhere\n\n\nContribution\n\n\nIf you want to expand this section, consider sending a PR or contact \nauthor",
+            "location": "/intel_services/", 
+            "text": "Intel Services\n\n\nIntel DevCloud\n\n\nFree cloud compute is now available for Intel\u00ae AI Academy members. Use Intel\u00ae AI DevCloud powered by Intel\u00ae Xeon\u00ae Scalable  processors for your machine learning and deep learning training and inference compute needs.\n- \nIntel Deep Learning Cloud \n System\n\n\n\n\nTo get access to Intel DevCloud, click \nhere\n\n\nGetting started with \nIntel DevCloud\n\n\n\n\nIntel Developer Zone\n\n\nFor articles check \nhere\n\n\nIntel Community\n\n\nIf you have any query regarding usage, refer to \nIntel Community\n\n\nIntel Movidus\n\n\nGetting started\n\n\nIntel Student Kits\n\n\nLearn AI theory and follow hands-on exercises with our free courses for software developers, data scientists, and students. These lessons cover AI topics and explore tools and optimized libraries that take advantage of Intel\u00ae processors in personal computers and server workstations. \nLink\n\n\nIntel libraries\n\n\nSee here\n\n\nIntel Math kernel library\n\n\nTo ask questions, refer \nhere\n\n\nContribution\n\n\nIf you want to expand this section, consider sending a PR or contact \nauthor", 
             "title": "Intel services"
-        },
+        }, 
         {
-            "location": "/intel_services/#intel-services",
-            "text": "",
+            "location": "/intel_services/#intel-services", 
+            "text": "", 
             "title": "Intel Services"
-        },
+        }, 
         {
-            "location": "/intel_services/#intel-devcloud",
-            "text": "Free cloud compute is now available for Intel\u00ae AI Academy members. Use Intel\u00ae AI DevCloud powered by Intel\u00ae Xeon\u00ae Scalable  processors for your machine learning and deep learning training and inference compute needs.\n-  Intel Deep Learning Cloud & System   To get access to Intel DevCloud, click  here  Getting started with  Intel DevCloud",
+            "location": "/intel_services/#intel-devcloud", 
+            "text": "Free cloud compute is now available for Intel\u00ae AI Academy members. Use Intel\u00ae AI DevCloud powered by Intel\u00ae Xeon\u00ae Scalable  processors for your machine learning and deep learning training and inference compute needs.\n-  Intel Deep Learning Cloud   System   To get access to Intel DevCloud, click  here  Getting started with  Intel DevCloud", 
             "title": "Intel DevCloud"
-        },
+        }, 
         {
-            "location": "/intel_services/#intel-developer-zone",
-            "text": "For articles check  here",
+            "location": "/intel_services/#intel-developer-zone", 
+            "text": "For articles check  here", 
             "title": "Intel Developer Zone"
-        },
+        }, 
         {
-            "location": "/intel_services/#intel-community",
-            "text": "If you have any query regarding usage, refer to  Intel Community",
+            "location": "/intel_services/#intel-community", 
+            "text": "If you have any query regarding usage, refer to  Intel Community", 
             "title": "Intel Community"
-        },
+        }, 
         {
-            "location": "/intel_services/#intel-movidus",
-            "text": "Getting started",
+            "location": "/intel_services/#intel-movidus", 
+            "text": "Getting started", 
             "title": "Intel Movidus"
-        },
+        }, 
         {
-            "location": "/intel_services/#intel-student-kits",
-            "text": "Learn AI theory and follow hands-on exercises with our free courses for software developers, data scientists, and students. These lessons cover AI topics and explore tools and optimized libraries that take advantage of Intel\u00ae processors in personal computers and server workstations.  Link",
+            "location": "/intel_services/#intel-student-kits", 
+            "text": "Learn AI theory and follow hands-on exercises with our free courses for software developers, data scientists, and students. These lessons cover AI topics and explore tools and optimized libraries that take advantage of Intel\u00ae processors in personal computers and server workstations.  Link", 
             "title": "Intel Student Kits"
-        },
+        }, 
         {
-            "location": "/intel_services/#intel-libraries",
-            "text": "See here  Intel Math kernel library",
+            "location": "/intel_services/#intel-libraries", 
+            "text": "See here  Intel Math kernel library", 
             "title": "Intel libraries"
-        },
+        }, 
         {
-            "location": "/intel_services/#to-ask-questions-refer-here",
-            "text": "",
+            "location": "/intel_services/#to-ask-questions-refer-here", 
+            "text": "", 
             "title": "To ask questions, refer here"
-        },
+        }, 
         {
-            "location": "/intel_services/#contribution",
-            "text": "If you want to expand this section, consider sending a PR or contact  author",
+            "location": "/intel_services/#contribution", 
+            "text": "If you want to expand this section, consider sending a PR or contact  author", 
             "title": "Contribution"
-        },
+        }, 
         {
-            "location": "/blogs/",
-            "text": "If you have published a blog on Intel Developer zone, and want it to appear here. Please send a PR.\n\n\nComputer Vision\n\n\n\n\nVisualizing CNN models using Pytorch\n\n\n\n\nGenerative Adversarial Networks\n\n\n\n\nBetter Generative modelling through Wasserstein GANs\n\n\n\n\nVirtual Reality\n\n\n\n\nArtistic Style Transfer to Virtual Reality \n\n\n\n\nIntel architecture\n\n\n\n\nIntel\u00ae Processors for Deep Learning Training",
+            "location": "/blogs/", 
+            "text": "If you have published a blog on Intel Developer zone, and want it to appear here. Please send a PR.\n\n\nComputer Vision\n\n\n\n\nVisualizing CNN models using Pytorch\n\n\n\n\nGenerative Adversarial Networks\n\n\n\n\nBetter Generative modelling through Wasserstein GANs\n\n\n\n\nVirtual Reality\n\n\n\n\nArtistic Style Transfer to Virtual Reality \n\n\n\n\nIntel architecture\n\n\n\n\nIntel\u00ae Processors for Deep Learning Training", 
             "title": "Blogs"
-        },
+        }, 
         {
-            "location": "/blogs/#computer-vision",
-            "text": "Visualizing CNN models using Pytorch",
+            "location": "/blogs/#computer-vision", 
+            "text": "Visualizing CNN models using Pytorch", 
             "title": "Computer Vision"
-        },
+        }, 
         {
-            "location": "/blogs/#generative-adversarial-networks",
-            "text": "Better Generative modelling through Wasserstein GANs",
+            "location": "/blogs/#generative-adversarial-networks", 
+            "text": "Better Generative modelling through Wasserstein GANs", 
             "title": "Generative Adversarial Networks"
-        },
+        }, 
         {
-            "location": "/blogs/#virtual-reality",
-            "text": "Artistic Style Transfer to Virtual Reality",
+            "location": "/blogs/#virtual-reality", 
+            "text": "Artistic Style Transfer to Virtual Reality", 
             "title": "Virtual Reality"
-        },
+        }, 
         {
-            "location": "/blogs/#intel-architecture",
-            "text": "Intel\u00ae Processors for Deep Learning Training",
+            "location": "/blogs/#intel-architecture", 
+            "text": "Intel\u00ae Processors for Deep Learning Training", 
             "title": "Intel architecture"
-        },
+        }, 
         {
-            "location": "/issues/",
-            "text": "AI DevCloud\n\n\n\n\nKNC to KNL - 2x Slower Performance\n\n\nProblem operating the cluster\n\n\nNot getting the required computational power !\n\n\nHow to run jupyter notebook using qsub\n\n\nDevCloud No space left on device error\n\n\n\n\nPytorch\n\n\n\n\nCannot find Intel MKL\n\n\n\n\nIntel Movidius NCS\n\n\n\n\nRunning custom TensorFlow model on NCS\n\n\n\n\nThese are the issues which have been resolved or are in progress of being solved. Please send a PR or contact \nauthor\n if you want some issues to be added that may help others.",
+            "location": "/issues/", 
+            "text": "AI DevCloud\n\n\n\n\nKNC to KNL - 2x Slower Performance\n\n\nProblem operating the cluster\n\n\nNot getting the required computational power !\n\n\nHow to run jupyter notebook using qsub\n\n\nDevCloud No space left on device error\n\n\n\n\nPytorch\n\n\n\n\nCannot find Intel MKL\n\n\n\n\nIntel Movidius NCS\n\n\n\n\nRunning custom TensorFlow model on NCS\n\n\n\n\nThese are the issues which have been resolved or are in progress of being solved. Please send a PR or contact \nauthor\n if you want some issues to be added that may help others.", 
             "title": "Issues"
-        },
+        }, 
         {
-            "location": "/issues/#ai-devcloud",
-            "text": "KNC to KNL - 2x Slower Performance  Problem operating the cluster  Not getting the required computational power !  How to run jupyter notebook using qsub  DevCloud No space left on device error",
+            "location": "/issues/#ai-devcloud", 
+            "text": "KNC to KNL - 2x Slower Performance  Problem operating the cluster  Not getting the required computational power !  How to run jupyter notebook using qsub  DevCloud No space left on device error", 
             "title": "AI DevCloud"
-        },
+        }, 
         {
-            "location": "/issues/#pytorch",
-            "text": "Cannot find Intel MKL",
+            "location": "/issues/#pytorch", 
+            "text": "Cannot find Intel MKL", 
             "title": "Pytorch"
-        },
+        }, 
         {
-            "location": "/issues/#intel-movidius-ncs",
-            "text": "Running custom TensorFlow model on NCS   These are the issues which have been resolved or are in progress of being solved. Please send a PR or contact  author  if you want some issues to be added that may help others.",
+            "location": "/issues/#intel-movidius-ncs", 
+            "text": "Running custom TensorFlow model on NCS   These are the issues which have been resolved or are in progress of being solved. Please send a PR or contact  author  if you want some issues to be added that may help others.", 
             "title": "Intel Movidius NCS"
-        },
+        }, 
         {
-            "location": "/FAQs/",
-            "text": "These are some of the most common questions, many are yet to come. This will be updated soon.\n- Maximum memory on Intel DevCloud : 200GB\n- For how many days are we granted DevCloud: 30 days, but it can be extended as per your request",
+            "location": "/FAQs/", 
+            "text": "These are some of the most common questions, many are yet to come. This will be updated soon.\n- Maximum memory on Intel DevCloud : 200GB\n- For how many days are we granted DevCloud: 30 days, but it can be extended as per your request", 
             "title": "FAQs"
         }
     ]
